@@ -8,10 +8,10 @@ namespace hello_world_lesson1
 
         static void Main(string[] args)
         {
-            var horizontalX = Console.ReadLine();
-            var x = Convert.ToInt32(horizontalX);
-            var verticalY = Console.ReadLine();
-            var y = Convert.ToInt32(verticalY);
+            int horizontalX = Console.ReadLine();
+            int x = Convert.ToInt32(horizontalX);
+            int verticalY = Console.ReadLine();
+            int y = Convert.ToInt32(verticalY);
             if (x < 0 && y > 0)
                 Console.WriteLine("NW");
             if (x == 0 && y > 0)
