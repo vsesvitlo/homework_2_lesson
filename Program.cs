@@ -13,7 +13,7 @@ namespace hello_world_lesson1
             int verticalY = Console.ReadLine();
             int y = Convert.ToInt32(verticalY);
             if (x < 0 && y > 0)
-                Console.WriteLine("NW");
+                Console.WriteLine("NW"); 
             if (x == 0 && y > 0)
                 Console.WriteLine("N");
             if (x > 0 && y > 0)
@@ -26,7 +26,7 @@ namespace hello_world_lesson1
                 Console.WriteLine("E");
             if (x < 0 && y < 0)
                 Console.WriteLine("SW");
-            if (x == 0 && y < 0)
+            if (x == 0 && y < 0)//jj
                 Console.WriteLine("S");
             if (x > 0 && y < 0)
                 Console.WriteLine("SE");
