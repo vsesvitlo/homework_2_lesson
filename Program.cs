@@ -8,12 +8,12 @@ namespace hello_world_lesson1
 
         static void Main(string[] args)
         {
-            int horizontalX = Console.ReadLine();
-            int x = Convert.ToInt32(horizontalX);
-            int verticalY = Console.ReadLine();
-            int y = Convert.ToInt32(verticalY);
+            string horizontalX = Console.ReadLine();
+            int.TryParse(horizontalX, out int x);
+            string verticalY = Console.ReadLine();
+            int.TryParse(verticalY, out int y);
             if (x < 0 && y > 0)
-                Console.WriteLine("NW"); 
+                Console.WriteLine("NW");
             if (x == 0 && y > 0)
                 Console.WriteLine("N");
             if (x > 0 && y > 0)
@@ -30,7 +30,6 @@ namespace hello_world_lesson1
                 Console.WriteLine("S");
             if (x > 0 && y < 0)
                 Console.WriteLine("SE");
-
         }
     }
 }
