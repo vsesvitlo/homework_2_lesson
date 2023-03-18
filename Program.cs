@@ -14,21 +14,21 @@ namespace hello_world_lesson1
             int.TryParse(verticalY, out int y);
             if (x < 0 && y > 0)
                 Console.WriteLine("NW");
-            if (x == 0 && y > 0)
+            else if (x == 0 && y > 0)
                 Console.WriteLine("N");
-            if (x > 0 && y > 0)
+            else if (x > 0 && y > 0)
                 Console.WriteLine("NE");
-            if (x < 0 && y == 0)
+            else if (x < 0 && y == 0)
                 Console.WriteLine("W");
-            if (x == 0 && y == 0)
+            else if (x == 0 && y == 0)
                 Console.WriteLine("!");
-            if (x > 0 && y == 0)
+            else if (x > 0 && y == 0)
                 Console.WriteLine("E");
-            if (x < 0 && y < 0)
+            else if (x < 0 && y < 0)
                 Console.WriteLine("SW");
-            if (x == 0 && y < 0)//jj
+            else if (x == 0 && y < 0)//jj
                 Console.WriteLine("S");
-            if (x > 0 && y < 0)
+            else //(x > 0 && y < 0);
                 Console.WriteLine("SE");
         }
     }
