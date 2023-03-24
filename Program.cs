@@ -109,5 +109,4 @@ else //(x > 0 && y < 0);
 //for (int ctr = 0; ctr <= 1; ctr++);
 //Console.Write("{0,2:N0  }", rand.Next(-5, 5));
 // var s = rand.Next(-5, 5);
-//int.TryParse(rand, out int a);
 //Console.Write("{0, 1 }", randA.Next(-5, 5));
